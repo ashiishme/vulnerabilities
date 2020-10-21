@@ -35,6 +35,10 @@
 /*========================================*/
 
 ** Local File Inclusion (LFI)
+LFI is a web vulnerability caused by mistakes made by a programmer of a website or web application.
+If an LFI vulnerability exists in a website or web application, an attacker can include malicious files that are later run by this website or web application.
+An attacker can use Local File Inclusion (LFI) to trick the web application into exposing or running files on the web server. Typically, LFI occurs when wan web
+application uses the path as an file input. Example: www.example.com/?page=filename.php.
 
 /*========================================*/
 
